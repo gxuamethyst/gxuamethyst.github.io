@@ -789,13 +789,13 @@ Caddy 一个显著的特性是默认启用 HTTPS。它是第一个无需额外�
 &lt;a href=&#34;https://zh.wikipedia.org/wiki/Caddy&#34;&gt;Caddy - 维基百科&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;要下载 Caddy 可以到其官方网站 &lt;a href=&#34;https://caddyserver.com/download&#34;&gt;https://caddyserver.com/download&lt;/a&gt; 上进行下载，下载的时候需要选择根据自己的操作系统类别，所需要的插件进行下载，对于插件，我们用到了 http.git, http.minify，以 Ubuntu 16.04 为例，选择完成之后可执行如下命令进行下载安装, 注意, 下载可能会比较慢, 请耐心等待.&lt;/p&gt;
+&lt;p&gt;要下载 Caddy 可以到其官方网站 &lt;a href=&#34;https://caddyserver.com/download&#34;&gt;https://caddyserver.com/download&lt;/a&gt; 上进行下载，下载的时候需要选择根据自己的操作系统类别，所需要的插件进行下载，对于插件，我们用到了 http.git, http.hugo, http.minify，以 Ubuntu 16.04 为例，选择完成之后可执行如下命令进行下载安装&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;curl https://getcaddy.com &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash -s personal http.git,http.minify&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;curl https://getcaddy.com &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash -s personal http.git,http.hugo,http.minify&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;配置-caddyfile&#34;&gt;配置 Caddyfile&lt;/h3&gt;
@@ -833,12 +833,15 @@ sudo vim /etc/caddy/Caddyfile&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;http://gxuamethyst.tech {
-    redir https://gxuamethyst.tech
+&lt;pre class=&#34;chroma&#34;&gt;http://gxuamethyst.ink {
+    redir https://gxuamethyst.ink
 }
-https://gxuamethyst.tech {
+https://gxuamethyst.ink {
     tls gxuamethyst@gmail.com
     gzip
     minify
@@ -847,10 +850,13 @@ https://gxuamethyst.tech {
         repo git@github.com:gxuamethyst/blog.git
         key /home/ubuntu/.ssh/id_rsa
         path /home/ubuntu/blog
-        then hugo --baseURL=https://gxuamethyst.tech --destination=/home/ubuntu/blog/public
+        then hugo --baseURL=https://gxuamethyst.ink --destination=/home/ubuntu/blog/public
         hook /webhook hugo@webhook
         hook_type github
+        clone_args --recursive
+        pull_args --recurse-submodules
     }
+    hugo
 }&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
