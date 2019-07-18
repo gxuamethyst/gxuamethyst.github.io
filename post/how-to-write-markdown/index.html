@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Markdown 语法练习 - Gxuamethyst&#39;s blog</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="Gxuamethyst" />
+  <meta name="description" content="Markdown 介绍 Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。
+" />
+
+  <meta name="keywords" content="Hugo, Blog, Gxuamethyst" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<link rel="canonical" href="https://gxuamethyst.github.io/post/how-to-write-markdown/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Markdown 语法练习" />
+<meta property="og:description" content="Markdown 介绍
+
+Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gxuamethyst.github.io/post/how-to-write-markdown/" />
+<meta property="article:published_time" content="2018-08-15T21:06:33&#43;08:00"/>
+<meta property="article:modified_time" content="2018-08-15T21:06:33&#43;08:00"/>
+
+<meta itemprop="name" content="Markdown 语法练习">
+<meta itemprop="description" content="Markdown 介绍
+
+Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。">
+
+
+<meta itemprop="datePublished" content="2018-08-15T21:06:33&#43;08:00" />
+<meta itemprop="dateModified" content="2018-08-15T21:06:33&#43;08:00" />
+<meta itemprop="wordCount" content="1154">
+
+
+
+<meta itemprop="keywords" content="Markdown," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown 语法练习"/>
+<meta name="twitter:description" content="Markdown 介绍
+
+Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Gxuamethyst</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/post/">归档</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/categories/">分类</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Gxuamethyst
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/">主页</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/post/">归档</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://gxuamethyst.github.io/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Markdown 语法练习</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-08-15 </span>
+        
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#markdown-介绍">Markdown 介绍</a></li>
+<li><a href="#markdown-语法">Markdown 语法</a>
+<ul>
+<li><a href="#插入图片">插入图片</a></li>
+<li><a href="#换行">换行</a></li>
+<li><a href="#格式化文本">格式化文本</a></li>
+<li><a href="#标题">标题</a></li>
+<li><a href="#断行">断行</a></li>
+<li><a href="#引用">引用</a></li>
+<li><a href="#链接">链接</a></li>
+<li><a href="#水平分区线">水平分区线</a></li>
+<li><a href="#列表">列表</a></li>
+<li><a href="#代码高亮">代码高亮</a></li>
+<li><a href="#转义">转义</a></li>
+<li><a href="#表格">表格</a></li>
+</ul></li>
+<li><a href="#编辑工具">编辑工具</a></li>
+<li><a href="#参考">参考</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h1 id="markdown-介绍">Markdown 介绍</h1>
+
+<p><a href="https://zh.wikipedia.org/wiki/Markdown">Markdown</a> 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。</p>
+
+<h1 id="markdown-语法">Markdown 语法</h1>
+
+<h2 id="插入图片">插入图片</h2>
+
+<p>语法：<code>![Alt Text](url)</code></p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">Foo</span>](<span class="na">https://en.wikipedia.org/static/images/project-logos/enwiki.png</span>)</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<p><img src="https://en.wikipedia.org/static/images/project-logos/enwiki.png" alt="Foo" /></p>
+
+<h2 id="换行">换行</h2>
+
+<p>在 Markdown 文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强制换行，可以在行尾插入至少两个空格。</p>
+
+<h2 id="格式化文本">格式化文本</h2>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">*斜体字*
+
+<span class="ge">_这也是斜体字_</span>
+
+<span class="gs">**强调**</span>
+
+这也是__强调__
+
+同时*使用**强调**和斜体*
+
+<span class="gd">~~删除线~~</span>
+
+插入行内代码 ``public class``</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<p><em>斜体字</em></p>
+
+<p><em>这也是斜体字</em></p>
+
+<p><strong>强调</strong></p>
+
+<p>这也是<strong>强调</strong></p>
+
+<p>同时*使用<strong>强调</strong>和斜体*</p>
+
+<p><del>删除线</del></p>
+
+<p>插入行内代码 <code>public class</code></p>
+
+<h2 id="标题">标题</h2>
+
+<p>可以在标题内容前输入特定数量的井号(&lsquo;#&rsquo;)来实现对应级别的HTML样式的标题(HTML提供六级标题)。使用 Typora 导出成 PDF 文件时将会根据标题生成文章目录。</p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="gh"># 一级标题
+</span><span class="gh"></span><span class="gu">## 二级标题
+</span><span class="gu"></span>...
+###### 六级标题</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="断行">断行</h2>
+
+<p>若是需要在 Markdown 文档中的某个地方强制断行(换行)，可以添加换行标签 <code>&lt;br/&gt;</code> 。</p>
+
+<h2 id="引用">引用</h2>
+
+<p>引用只需要在被引用的内容段落开头加上右尖括号(&lsquo;&gt;&rsquo;)即可。你可以选择只在开头加一个。也可以在每行前面都加一个，效果是一样的。</p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">&gt; </span><span class="ge">这一整段的内容都会作为一个HTML的引用元素。
+</span><span class="ge"></span>引用元素是会自动优化排版的（reflowable，可回流）。
+你可以任意地将引用的内容包含进来，然后所有这些都会
+被解析成为单独一个引用元素。(引用的段落最后空一行结束引用)</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<blockquote>
+<p>这一整段的内容都会作为一个HTML的引用元素。
+引用元素是会自动优化排版的（reflowable，可回流）。
+你可以任意地将引用的内容包含进来，然后所有这些都会
+被解析成为单独一个引用元素。(引用的段落最后空一行结束引用)</p>
+</blockquote>
+
+<h2 id="链接">链接</h2>
+
+<p>语法：<code>[链接文字](链接地址)</code></p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">Markdown</span>](<span class="na">https://zh.wikipedia.com/wiki/Markdown</span>)</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<p><a href="https://zh.wikipedia.com/wiki/Markdown">Markdown</a></p>
+
+<h2 id="水平分区线">水平分区线</h2>
+
+<p>要生成水平分区线，可以在单独一行里输入3个或以上的短横线、星号或者下划线实现。短横线和星号之间可以输入任意空格。以下每一行都产生一条水平分区线。</p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">*</span> * *
+***
+<span class="gs">****</span><span class="k">*</span>
+- - -
+___</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h2 id="列表">列表</h2>
+
+<p>无序列表：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">*</span> Item 1
+<span class="k">*</span> Item 2
+ <span class="k">*</span> Item 2a
+ * Item 2b</code></pre></td></tr></table>
+</div>
+</div>
+<p>结果：</p>
+
+<ul>
+<li>Item 1</li>
+<li>Item 2
+
+<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul></li>
+</ul>
+
+<p>有序列表:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">1.</span> Item 1
+<span class="k">2.</span> Item 2
+<span class="k">3.</span> Item 3
+ <span class="k">*</span> Item 3a
+ * Item 3b</code></pre></td></tr></table>
+</div>
+</div>
+<p>结果：</p>
+
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3
+
+<ul>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ul></li>
+</ol>
+
+<h2 id="代码高亮">代码高亮</h2>
+
+<p>示例：</p>
+
+<p><img src="/images/markdown_code_demo.png" alt="Code Highlighting Sample" /></p>
+
+<p>示例结果：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;hello world!&#34;</span><span class="o">);</span>
+  <span class="o">}</span>
+<span class="o">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="转义">转义</h2>
+
+<p>Markdown 中使用反斜杠 \ 进行转义，支持转义的符号包括<code>\ ` * _ { } [ ] ( ) # + - . !</code>，若要插入空格，可以使用 <code>&amp;nbsp;</code></p>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">\*literal asterisks\*</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<p>*literal asterisks*</p>
+
+<h2 id="表格">表格</h2>
+
+<p>示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">First Header  | Second Header | Third Header
+------------- | ------------- | ------------
+Content Cell  | Content Cell  | Content Cell
+Content Cell  | Content Cell  | Content Cell</code></pre></td></tr></table>
+</div>
+</div>
+<p>示例结果：</p>
+
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+<th>Third Header</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="编辑工具">编辑工具</h1>
+
+<ul>
+<li><a href="https://www.typora.io/">Typora</a></li>
+</ul>
+
+<p>支持中文, 方便导出成 PDF 文件</p>
+
+<ul>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+</ul>
+
+<p>可根据需要安装 Markdown 预览插件</p>
+
+<ul>
+<li><a href="https://github.com/ivarptr/yu-writer.site/releases">Yu writer</a></li>
+</ul>
+
+<p>国产 Markdown 编辑器</p>
+
+<h1 id="参考">参考</h1>
+
+<ol>
+<li><a href="https://zh.wikipedia.org/wiki/Markdown">https://zh.wikipedia.org/wiki/Markdown</a></li>
+<li><a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></li>
+<li><a href="http://wowubuntu.com/markdown/">http://wowubuntu.com/markdown/</a></li>
+</ol>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Gxuamethyst</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-08-15</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://gxuamethyst.github.io/tags/markdown/">Markdown</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/shadowsocks-installation/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Shadowsocks 服务器搭建</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/automatic-deployment-of-hugo/">
+            <span class="next-text nav-default">Hugo 自动部署</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  <div class="post bg-white">
+      <div id="comments-gitment"></div>
+      <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
+        <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
+      <script type="text/javascript">
+      const gitment = new Gitment({
+        id: 'how-to-write-markdown.md',
+        title: 'Markdown 语法练习',
+        link: decodeURI(location.href),
+        desc: '\x3ch1 id=\x22markdown-介绍\x22\x3eMarkdown 介绍\x3c\/h1\x3e\n\n\x3cp\x3e\x3ca href=\x22https:\/\/zh.wikipedia.org\/wiki\/Markdown\x22\x3eMarkdown\x3c\/a\x3e 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。\x3c\/p\x3e',
+        owner: 'gxuamethyst',
+        repo: 'blog-comments',
+        oauth: {
+          client_id: '72eb6038a7903a3fa8d5',
+          client_secret: 'e894307c7a1c3d67086a6eb25d55506d414320db'
+        }
+      })
+      gitment.render('comments-gitment')
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+    </div>
+
+  
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:gxuamethyst@gmail.com" rel="me noopener" class="iconfont icon-email"
+        title="email">
+      </a>
+      <a href="https://github.com/gxuamethyst" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://gxuamethyst.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+  </div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2018 -
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">
+        Gxuamethyst
+        
+      </span></span>
+
+  
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

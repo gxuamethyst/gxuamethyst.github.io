@@ -1,0 +1,119 @@
+<?xml-stylesheet type="text/xsl" href="https://gxuamethyst.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/flag/</loc>
+    <lastmod>2018-10-12T22:24:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/</loc>
+    <lastmod>2018-10-12T22:24:49+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/</loc>
+    <lastmod>2018-10-12T22:24:49+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/use-cellphone-to-controll-pc-music-player/</loc>
+    <lastmod>2018-09-18T17:37:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/rom/</loc>
+    <lastmod>2018-08-26T20:01:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/shadowsocks/</loc>
+    <lastmod>2018-08-26T20:01:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/</loc>
+    <lastmod>2018-08-26T20:01:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</loc>
+    <lastmod>2018-08-26T20:01:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/github/</loc>
+    <lastmod>2018-08-19T14:06:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/add-license/</loc>
+    <lastmod>2018-08-19T14:06:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/shadowsocks-installation/</loc>
+    <lastmod>2018-08-17T14:13:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/markdown/</loc>
+    <lastmod>2018-08-15T21:06:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/how-to-write-markdown/</loc>
+    <lastmod>2018-08-15T21:06:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/caddy/</loc>
+    <lastmod>2018-08-13T22:15:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/tags/hugo/</loc>
+    <lastmod>2018-08-13T22:15:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/</loc>
+    <lastmod>2018-08-13T22:15:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/post/quick-start-for-hugo/</loc>
+    <lastmod>2018-08-13T22:05:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gxuamethyst.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

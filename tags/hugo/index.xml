@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Gxuamethyst&#39;s blog</title>
+    <link>https://gxuamethyst.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Gxuamethyst&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 13 Aug 2018 22:15:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://gxuamethyst.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo 自动部署</title>
+      <link>https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/</link>
+      <pubDate>Mon, 13 Aug 2018 22:15:12 +0800</pubDate>
+      
+      <guid>https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/</guid>
+      <description>&lt;p&gt;若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 &lt;code&gt;hugo --baseURL URL&lt;/code&gt; 命令来生成静态页面。&lt;/p&gt;
+
+&lt;p&gt;这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo 快速入门</title>
+      <link>https://gxuamethyst.github.io/post/quick-start-for-hugo/</link>
+      <pubDate>Mon, 13 Aug 2018 22:05:40 +0800</pubDate>
+      
+      <guid>https://gxuamethyst.github.io/post/quick-start-for-hugo/</guid>
+      <description>&lt;h2 id=&#34;hugo-介绍&#34;&gt;Hugo 介绍&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 是一个使用 &lt;a href=&#34;https://golang.org&#34;&gt;Golang&lt;/a&gt; 编写的静态站点生成器，其他类似的工具还有 &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;、&lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
