@@ -76,7 +76,7 @@
 
 <meta itemprop="datePublished" content="2018-08-13T22:15:12&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-13T22:15:12&#43;08:00" />
-<meta itemprop="wordCount" content="1381">
+<meta itemprop="wordCount" content="1391">
 
 
 
@@ -308,13 +308,13 @@ Caddy 一个显著的特性是默认启用 HTTPS。它是第一个无需额外�
 <a href="https://zh.wikipedia.org/wiki/Caddy">Caddy - 维基百科</a></p>
 </blockquote>
 
-<p>要下载 Caddy 可以到其官方网站 <a href="https://caddyserver.com/download">https://caddyserver.com/download</a> 上进行下载，下载的时候需要选择根据自己的操作系统类别，所需要的插件进行下载，对于插件，我们用到了 http.git, http.hugo, http.minify，以 Ubuntu 16.04 为例，选择完成之后可执行如下命令进行下载安装</p>
+<p>要下载 Caddy 可以到其官方网站 <a href="https://caddyserver.com/download">https://caddyserver.com/download</a> 上进行下载，下载的时候需要选择根据自己的操作系统类别，所需要的插件进行下载，对于插件，我们用到了 http.git, http.minify，以 Ubuntu 16.04 为例，选择完成之后可执行如下命令进行下载安装, 注意, 下载可能会比较慢, 请耐心等待.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">curl https://getcaddy.com <span class="p">|</span> bash -s personal http.git,http.hugo,http.minify</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl https://getcaddy.com <span class="p">|</span> bash -s personal http.git,http.minify</code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="配置-caddyfile">配置 Caddyfile</h3>
@@ -352,15 +352,12 @@ sudo vim /etc/caddy/Caddyfile</code></pre></td></tr></table>
 </span><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma">http://gxuamethyst.ink {
-    redir https://gxuamethyst.ink
+<pre class="chroma">http://gxuamethyst.tech {
+    redir https://gxuamethyst.tech
 }
-https://gxuamethyst.ink {
+https://gxuamethyst.tech {
     tls gxuamethyst@gmail.com
     gzip
     minify
@@ -369,13 +366,10 @@ https://gxuamethyst.ink {
         repo git@github.com:gxuamethyst/blog.git
         key /home/ubuntu/.ssh/id_rsa
         path /home/ubuntu/blog
-        then hugo --baseURL=https://gxuamethyst.ink --destination=/home/ubuntu/blog/public
+        then hugo --baseURL=https://gxuamethyst.tech --destination=/home/ubuntu/blog/public
         hook /webhook hugo@webhook
         hook_type github
-        clone_args --recursive
-        pull_args --recurse-submodules
     }
-    hugo
 }</pre></td></tr></table>
 </div>
 </div>
