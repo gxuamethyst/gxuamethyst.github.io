@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shadowsocks on Gxuamethyst&#39;s blog</title>
+    <title>Shadowsocks on Hello World</title>
     <link>https://gxuamethyst.github.io/tags/shadowsocks/</link>
-    <description>Recent content in Shadowsocks on Gxuamethyst&#39;s blog</description>
+    <description>Recent content in Shadowsocks on Hello World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Aug 2018 20:01:54 +0800</lastBuildDate>
-    
-	<atom:link href="https://gxuamethyst.github.io/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 Aug 2018 20:01:54 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刷机之后在开机向导中如何连接 Google 进行验证</title>
       <link>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</link>
@@ -18,11 +14,8 @@
       
       <guid>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</guid>
       <description>&lt;p&gt;本人闲来无事时喜欢将自己的 OnePlus 3T 手机刷成其他系统，然而在刷一加海外版的系统 Oxygen OS 后，新的版本的开机向导必须输入 Google 账号才能进入系统。&lt;/p&gt;
-
 &lt;p&gt;由于众所周知的原因，刚安装完系统之后的开机向导中我们无法连接到 Google 进行身份验证，所以也就无法跳过开机向导，其他的有些 ROM 如 Pixel Experience 也有这种问题 (目前最新版本已经可以跳过)。&lt;/p&gt;
-
 &lt;p&gt;我也曾经到一加论坛寻找解决方案，部分网友说恢复 bootloader 锁再刷机即可在紧急呼救界面输入 &lt;code&gt;*#812#&lt;/code&gt; 来跳过开机向导，但是个人觉得有点麻烦。&lt;/p&gt;
-
 &lt;p&gt;既然无法跳过开机向导，那我们就只能想办法让手机连接到 Google 来通过验证，从而进入系统，下面为大家分享其中一种比较易于实现的方案。&lt;/p&gt;</description>
     </item>
     
@@ -32,10 +25,8 @@
       <pubDate>Fri, 17 Aug 2018 14:13:56 +0800</pubDate>
       
       <guid>https://gxuamethyst.github.io/post/shadowsocks-installation/</guid>
-      <description>&lt;h2 id=&#34;购买一个国外-vps-服务器&#34;&gt;购买一个国外 VPS/服务器&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;购买一个国外-vps服务器&#34;&gt;购买一个国外 VPS/服务器&lt;/h2&gt;
 &lt;p&gt;想要自己搭建一个用于代理的 Shadowsocks 服务，首先需要购买一个国外的 VPS (Virtual Private Server 虚拟专用服务器)，国外的主机提供商有很多，比较著名的有 &lt;a href=&#34;https://www.digitalocean.com/&#34;&gt;DigitalOcean&lt;/a&gt;，&lt;a href=&#34;https://www.linode.com/&#34;&gt;Linode&lt;/a&gt;，&lt;a href=&#34;https://www.vultr.com/&#34;&gt;Vultr&lt;/a&gt; 等，服务器相对较为稳定，速度快，但是价格也相对较高。&lt;/p&gt;
-
 &lt;p&gt;购买步骤大致如下&lt;/p&gt;</description>
     </item>
     

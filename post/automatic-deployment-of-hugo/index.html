@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<html lang="zh-cn">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Hugo 自动部署 - Gxuamethyst&#39;s blog</title>
-  
-
-<meta name="renderer" content="webkit" />
+  <title>Hugo 自动部署 - Hello World</title>
+  <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-<meta name="MobileOptimized" content="width"/>
-<meta name="HandheldFriendly" content="true"/>
-
-
-<meta name="applicable-device" content="pc,mobile">
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -22,69 +15,48 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="Gxuamethyst" />
-  <meta name="description" content="若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 hugo --baseURL URL 命令来生成静态页面。
+<meta name="author" content="Gxuamethyst" /><meta name="description" content="若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 hugo --baseURL URL 命令来生成静态页面。
 这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。
 " />
 
-  <meta name="keywords" content="Hugo, Blog, Gxuamethyst" />
 
 
 
 
 
-
-<meta name="generator" content="Hugo 0.55.6" />
+<meta name="generator" content="Hugo 0.83.1 with theme even" />
 
 
 <link rel="canonical" href="https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
-<link rel="icon" href="/favicon.ico" />
-
-
-
-
-
-
-
-
-
-
-<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
-
-
+<link href="/sass/main.min.f9ad7f5fa2f4b1ed34ba16045a8c0ec5a910d4a5062f41de9ef1d197cbc8e5e3.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="Hugo 自动部署" />
 <meta property="og:description" content="若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 hugo --baseURL URL 命令来生成静态页面。
-
 这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/" />
-<meta property="article:published_time" content="2018-08-13T22:15:12&#43;08:00"/>
-<meta property="article:modified_time" content="2018-08-13T22:15:12&#43;08:00"/>
+<meta property="og:url" content="https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-08-13T22:15:12&#43;08:00" />
+<meta property="article:modified_time" content="2018-08-13T22:15:12&#43;08:00" />
 
 <meta itemprop="name" content="Hugo 自动部署">
 <meta itemprop="description" content="若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 hugo --baseURL URL 命令来生成静态页面。
-
-这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。">
-
-
-<meta itemprop="datePublished" content="2018-08-13T22:15:12&#43;08:00" />
+这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。"><meta itemprop="datePublished" content="2018-08-13T22:15:12&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-13T22:15:12&#43;08:00" />
 <meta itemprop="wordCount" content="1381">
-
-
-
-<meta itemprop="keywords" content="Hugo,Caddy," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Hugo,Caddy," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo 自动部署"/>
 <meta name="twitter:description" content="若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 hugo --baseURL URL 命令来生成静态页面。
-
 这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。"/>
 
 <!--[if lte IE 9]>
@@ -96,14 +68,11 @@
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
 
-
-
-
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">Gxuamethyst</a>
+    <a href="/" class="logo">Hello World</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -113,229 +82,135 @@
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/">主页</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/post/">归档</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/tags/">标签</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/categories/">分类</a>
-          
-        
-      </li>
-    
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
   </ul>
 </nav>
-
-
-  
-
-  
-
-  <header id="header" class="header container">
-    <div class="logo-wrapper">
-  <a href="/" class="logo">
-    
-      Gxuamethyst
-    
-  </a>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Hello World</a>
 </div>
 
 <nav class="site-navbar">
   <ul id="menu" class="menu">
-    
-      <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/">主页</a>
-          
-
-        
-
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
       </li>
-    
-      <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/post/">归档</a>
-          
-
-        
-
-      </li>
-    
-      <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/tags/">标签</a>
-          
-
-        
-
-      </li>
-    
-      <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://gxuamethyst.github.io/categories/">分类</a>
-          
-
-        
-
-      </li>
-    
-    
   </ul>
 </nav>
+    </header>
 
-  </header>
-
-  <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
+    <main id="main" class="main">
       <div class="content-wrapper">
-        <div id="content" class="content container">
-          <article class="post bg-white">
+        <div id="content" class="content">
+          <article class="post">
     
     <header class="post-header">
       <h1 class="post-title">Hugo 自动部署</h1>
-      
+
       <div class="post-meta">
         <span class="post-time"> 2018-08-13 </span>
-        
-        
-
-        
-        
-
         
         
       </div>
     </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
+    <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
-  <div class="post-toc-content">
+  <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#配置域名解析">配置域名解析</a></li>
-<li><a href="#add-ssh-key-to-github">Add SSH key to GitHub</a></li>
-<li><a href="#add-webhook">Add webhook</a></li>
-<li><a href="#服务器端安装-hugo">服务器端安装 Hugo</a></li>
-<li><a href="#下载安装-caddy">下载安装 Caddy</a></li>
-<li><a href="#配置-caddyfile">配置 Caddyfile</a></li>
-<li><a href="#运行-caddy">运行 Caddy</a></li>
-<li><a href="#caddy-后台运行-开机自启">Caddy 后台运行/开机自启</a></li>
-<li><a href="#总结">总结</a></li>
-<li><a href="#参考">参考</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#配置域名解析">配置域名解析</a></li>
+            <li><a href="#add-ssh-key-to-github">Add SSH key to GitHub</a></li>
+            <li><a href="#add-webhook">Add webhook</a></li>
+            <li><a href="#服务器端安装-hugo">服务器端安装 Hugo</a></li>
+            <li><a href="#下载安装-caddy">下载安装 Caddy</a></li>
+            <li><a href="#配置-caddyfile">配置 Caddyfile</a></li>
+            <li><a href="#运行-caddy">运行 Caddy</a></li>
+            <li><a href="#caddy-后台运行开机自启">Caddy 后台运行/开机自启</a></li>
+            <li><a href="#总结">总结</a></li>
+            <li><a href="#参考">参考</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
-
-    
     <div class="post-content">
       <p>若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 <code>hugo --baseURL URL</code> 命令来生成静态页面。</p>
-
 <p>这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。</p>
-
 <h3 id="配置域名解析">配置域名解析</h3>
-
 <p>首先，你需要拥有一个域名，可以到阿里云、腾讯云等云服务提供商进行购买，然后将域名解析到你需要操作的服务器 IP，关于这方面的知识可以直接在阿里云/腾讯云的域名购买页面中查看到，或自行 Google。</p>
-
 <h3 id="add-ssh-key-to-github">Add SSH key to GitHub</h3>
-
 <p>由于后续操作需要下载我们保存在 Github 上的 Hugo 博客源码，所以我们需要将服务器的 SSH key 添加到自己的 Github 账号中，若是托管到 BitBucket 或者 Gitee 等其他地方的，同样需要添加 SSH key。</p>
-
 <p>执行如下命令显示 SSH 公玥并复制到 Github &ndash; Settings &ndash; SSH and GPS keys &ndash; SSH keys &ndash; New SSH key 中添加即可，若是提示文件不存在，先执行 <code>ssh-keygen</code> 命令生成一个 SSH key 即可（若提示输入内容，可不管，一路回车使用默认配置）</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">cat ~/.ssh/id_rsa.pub</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">cat ~/.ssh/id_rsa.pub
+</code></pre></td></tr></table>
 </div>
-</div>
-<p><img src="/images/add-ssh-key.png" alt="add-ssh-key" /></p>
-
+</div><p><img src="/images/add-ssh-key.png" alt="add-ssh-key"></p>
 <h3 id="add-webhook">Add webhook</h3>
-
 <p>在我们的 Github 博客项目当中，选择 Settings -&gt; Webhooks -&gt; Add webhook，其中的 <code>https://gxuamethyst.ink</code> 即为自己博客的域名，这样我们每次提交新的代码/内容之后，都会触发到 <code>https://gxuamethyst.ink/webhook</code>，若想了解更多关于 Webhook 的知识请自行 Google。</p>
-
-<p><img src="/images/add-webhook.png" alt="add-webhook" /></p>
-
-<p><img src="/images/add-webhook-detail.png" alt="add-webhook-detail" /></p>
-
+<p><img src="/images/add-webhook.png" alt="add-webhook"></p>
+<p><img src="/images/add-webhook-detail.png" alt="add-webhook-detail"></p>
 <h3 id="服务器端安装-hugo">服务器端安装 Hugo</h3>
-
 <p>参考本人前一篇博文 <a href="https://gxuamethyst.github.io/post/quick-start-for-hugo/#for-linux">Hugo 快速入门</a></p>
-
 <h3 id="下载安装-caddy">下载安装 Caddy</h3>
-
 <blockquote>
 <p>Caddy服务器（或称Caddy Web）是一个开源的，使用 Golang 编写，支持 HTTP/2 的 Web 服务端。
 Caddy 一个显著的特性是默认启用 HTTPS。它是第一个无需额外配置即可提供 HTTPS 特性的 Web 服务器。
 <a href="https://zh.wikipedia.org/wiki/Caddy">Caddy - 维基百科</a></p>
 </blockquote>
-
 <p>要下载 Caddy 可以到其官方网站 <a href="https://caddyserver.com/download">https://caddyserver.com/download</a> 上进行下载，下载的时候需要选择根据自己的操作系统类别，所需要的插件进行下载，对于插件，我们用到了 http.git, http.hugo, http.minify，以 Ubuntu 16.04 为例，选择完成之后可执行如下命令进行下载安装</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">curl https://getcaddy.com <span class="p">|</span> bash -s personal http.git,http.hugo,http.minify</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl https://getcaddy.com <span class="p">|</span> bash -s personal http.git,http.hugo,http.minify
+</code></pre></td></tr></table>
 </div>
-</div>
-<h3 id="配置-caddyfile">配置 Caddyfile</h3>
-
+</div><h3 id="配置-caddyfile">配置 Caddyfile</h3>
 <p>关于 Caddy 的更多使用介绍这里不多说，可以参考 Caddy 的官方文档或 Google 查找相关内容，下载完成之后我们需要新建一个 Caddy 配置文件供我们的博客网站运行使用。</p>
-
 <p>执行如下命令新建 <code>Caddyfile</code> 文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell">sudo mkdir /etc/caddy
-sudo vim /etc/caddy/Caddyfile</code></pre></td></tr></table>
+sudo vim /etc/caddy/Caddyfile
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>然后根据自己的实际情况，添加如下内容并保存（其中的 <code>hugo@webhook</code> 为添加 Webhook 时填写的 secret key）</p>
+</div><p>然后根据自己的实际情况，添加如下内容并保存（其中的 <code>hugo@webhook</code> 为添加 Webhook 时填写的 secret key）</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -355,9 +230,9 @@ sudo vim /etc/caddy/Caddyfile</code></pre></td></tr></table>
 </span><span class="lnt">18
 </span><span class="lnt">19
 </span><span class="lnt">20
-</span></pre></td>
+</span></code></pre></td>
 <td class="lntd">
-<pre class="chroma">http://gxuamethyst.ink {
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">http://gxuamethyst.ink {
     redir https://gxuamethyst.ink
 }
 https://gxuamethyst.ink {
@@ -376,42 +251,41 @@ https://gxuamethyst.ink {
         pull_args --recurse-submodules
     }
     hugo
-}</pre></td></tr></table>
+}
+</code></pre></td></tr></table>
 </div>
-</div>
-<h3 id="运行-caddy">运行 Caddy</h3>
-
+</div><h3 id="运行-caddy">运行 Caddy</h3>
 <p>执行如下命令运行 Caddy，若无误，此时使用浏览器即可进行访问，否则请根据错误提示到 Google 查找相关内容并解决。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo caddy -conf /etc/caddy/Caddyfile</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo caddy -conf /etc/caddy/Caddyfile
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>注意，执行成功之后可能会提示如下的警告</p>
+</div><p>注意，执行成功之后可能会提示如下的警告</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">WARNING: File descriptor limit <span class="m">1024</span> is too low <span class="k">for</span> production servers. At least <span class="m">8192</span> is recommended. Fix with <span class="s2">&#34;ulimit -n 8192&#34;</span>.</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">WARNING: File descriptor limit <span class="m">1024</span> is too low <span class="k">for</span> production servers. At least <span class="m">8192</span> is recommended. Fix with <span class="s2">&#34;ulimit -n 8192&#34;</span>.
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>为了解决这个问题，我们可以执行如下操作修改文件句柄限制</p>
+</div><p>为了解决这个问题，我们可以执行如下操作修改文件句柄限制</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vim /etc/security/limits.conf</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vim /etc/security/limits.conf
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>在 <code>/etc/security/limits.conf</code> 文件中追加如下内容并保存</p>
+</div><p>在 <code>/etc/security/limits.conf</code> 文件中追加如下内容并保存</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -420,26 +294,24 @@ https://gxuamethyst.ink {
 <pre class="chroma"><code class="language-shell" data-lang="shell">* soft nofile <span class="m">65535</span>
 * hard nofile <span class="m">65535</span>
 * soft nproc <span class="m">65535</span>
-* hard nproc <span class="m">65535</span></code></pre></td></tr></table>
+* hard nproc <span class="m">65535</span>
+</code></pre></td></tr></table>
 </div>
-</div>
-<h3 id="caddy-后台运行-开机自启">Caddy 后台运行/开机自启</h3>
-
+</div><h3 id="caddy-后台运行开机自启">Caddy 后台运行/开机自启</h3>
 <p>在前面的内容中可发现执行 <code>sudo caddy -conf /ect/caddy/Caddyfile</code> 之后无法后台运行，为了将 Caddy 放入后台运行且开机自动启动，我们可以将 Caddy 加入到 systemd</p>
-
 <p>首先，新建 <code>/etc/systemd/system/caddy.service</code> 文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vim /etc/systemd/system/caddy.service</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vim /etc/systemd/system/caddy.service
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>添加如下内容并保存</p>
+</div><p>添加如下内容并保存</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -453,9 +325,9 @@ https://gxuamethyst.ink {
 </span><span class="lnt">12
 </span><span class="lnt">13
 </span><span class="lnt">14
-</span></pre></td>
+</span></code></pre></td>
 <td class="lntd">
-<pre class="chroma">[Unit]
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">[Unit]
 Description=Caddy Server
 After=syslog.target
 After=network.target
@@ -468,170 +340,129 @@ ExecStart=/usr/local/bin/caddy -conf /etc/caddy/Caddyfile
 Restart=always
 
 [Install]
-WantedBy=multi-user.target</pre></td></tr></table>
+WantedBy=multi-user.target
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>然后执行如下命令使其生效</p>
+</div><p>然后执行如下命令使其生效</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl daemon-reload
 sudo systemctl start caddy.service
-sudo systemctl <span class="nb">enable</span> caddy.service</code></pre></td></tr></table>
+sudo systemctl <span class="nb">enable</span> caddy.service
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>查看 Caddy 是否已在正常运行</p>
+</div><p>查看 Caddy 是否已在正常运行</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl status caddy.service</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl status caddy.service
+</code></pre></td></tr></table>
 </div>
-</div>
-<h3 id="总结">总结</h3>
-
+</div><h3 id="总结">总结</h3>
 <p>执行完如上的一系列操作配置完成之后，以后每次修改完博客内容并提交到 Github，将会触发 Caddy 自动更新 Github 代码，并使用 Hugo 自动生成静态页面并更新 Web 服务器内容，再也不需要手动进行操作了。</p>
-
 <h3 id="参考">参考</h3>
-
 <p><a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
-
 <p><a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></p>
-
 <p><a href="https://caddyserver.com/download">https://caddyserver.com/download</a></p>
-
 <p><a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/">https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/</a></p>
-
 <p><a href="https://github.com/Unknwon/wuwen.org/issues/11">https://github.com/Unknwon/wuwen.org/issues/11</a></p>
-
 <p><a href="https://nickfan.github.io/2018/01/05/caddy-hugo-acme/">https://nickfan.github.io/2018/01/05/caddy-hugo-acme/</a></p>
-
 <p><a href="https://sqh.me/tech/host-hugo-blog-using-caddy/">https://sqh.me/tech/host-hugo-blog-using-caddy/</a></p>
     </div>
 
-    
-    
-<div class="post-copyright">
+    <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
     <span class="item-content">Gxuamethyst</span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-08-13</span>
+    <span class="item-content">
+        2018-08-13
+        
+    </span>
   </p>
   
-  <p class="copyright-item">
-    <span class="item-title">许可协议</span>
-    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
-  </p>
+  
 </div>
-
-    
-    
-
-    <footer class="post-footer">
+<footer class="post-footer">
       <div class="post-tags">
-          <a href="https://gxuamethyst.github.io/tags/hugo/">Hugo</a>
-          <a href="https://gxuamethyst.github.io/tags/caddy/">Caddy</a>
-          
-        </div>
-
-      
+          <a href="/tags/hugo/">Hugo</a>
+          <a href="/tags/caddy/">Caddy</a>
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/post/how-to-write-markdown/">
+        <a class="prev" href="/post/how-to-write-markdown/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">Markdown 语法练习</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        
-          <a class="next" href="/post/quick-start-for-hugo/">
+        <a class="next" href="/post/quick-start-for-hugo/">
             <span class="next-text nav-default">Hugo 快速入门</span>
-            <span class="prev-text nav-mobile">下一篇</span>
+            <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
       </nav>
     </footer>
   </article>
-
-  
-  
-
-  
-  
-
-  
-
-  <div class="post bg-white">
-      <div id="comments-gitment"></div>
-      <link rel="stylesheet" href="/lib/gitment/gitment-0.0.3.min.css">
-        <script src="/lib/gitment/gitment-0.0.3.min.js"></script>
-      <script type="text/javascript">
-      const gitment = new Gitment({
-        id: 'automatic-deployment-of-hugo.md',
+        </div>
+        <div id="comments-gitment"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitment = new Gitment({
+        id: '2018-08-13 22:15:12 \u002b0800 CST',
         title: 'Hugo 自动部署',
         link: decodeURI(location.href),
-        desc: '\x3cp\x3e若是我们将 Hugo 部署\/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 \x3ccode\x3ehugo --baseURL URL\x3c\/code\x3e 命令来生成静态页面。\x3c\/p\x3e\n\n\x3cp\x3e这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。\x3c\/p\x3e',
+        desc: '\u003cp\u003e若是我们将 Hugo 部署\/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 \u003ccode\u003ehugo --baseURL URL\u003c\/code\u003e 命令来生成静态页面。\u003c\/p\u003e\n\u003cp\u003e这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。\u003c\/p\u003e',
         owner: 'gxuamethyst',
         repo: 'blog-comments',
         oauth: {
           client_id: '72eb6038a7903a3fa8d5',
           client_secret: 'e894307c7a1c3d67086a6eb25d55506d414320db'
         }
-      })
-      gitment.render('comments-gitment')
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
-    </div>
+      });
+      gitment.render('comments-gitment');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
 
   
 
-        </div>
+  
+
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:gxuamethyst@gmail.com" rel="me noopener" class="iconfont icon-email"
-        title="email">
-      </a>
-      <a href="https://github.com/gxuamethyst" rel="me noopener" class="iconfont icon-github"
-        title="github" target="_blank">
-      </a>
-  <a href="https://gxuamethyst.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="iconfont icon-rss"
-    title="rss" target="_blank">
-  </a>
-  </div>
+      <a href="mailto:gxuamethyst@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/gxuamethyst" class="iconfont icon-github" title="github"></a>
+  <a href="https://gxuamethyst.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
 
 <div class="copyright">
   <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
   </span>
   <span class="division">|</span>
   <span class="theme-info">
-    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
-  <span class="copyright-year">
-    &copy;
-    
-      2018 -
-    2019
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span><span class="author">
-        Gxuamethyst
-        
-      </span></span>
+  
 
-  
-  
+  <span class="copyright-year">
+    &copy; 
+    2018 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Gxuamethyst</span>
+  </span>
 </div>
 
     </footer>
@@ -641,16 +472,13 @@ sudo systemctl <span class="nb">enable</span> caddy.service</code></pre></td></t
     </div>
   </div>
   
-<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
-<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
 
 
 
-
-
-
-
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
 
 
 

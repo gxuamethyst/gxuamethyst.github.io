@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ROM on Gxuamethyst&#39;s blog</title>
+    <title>ROM on Hello World</title>
     <link>https://gxuamethyst.github.io/tags/rom/</link>
-    <description>Recent content in ROM on Gxuamethyst&#39;s blog</description>
+    <description>Recent content in ROM on Hello World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Aug 2018 20:01:54 +0800</lastBuildDate>
-    
-	<atom:link href="https://gxuamethyst.github.io/tags/rom/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 Aug 2018 20:01:54 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/tags/rom/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刷机之后在开机向导中如何连接 Google 进行验证</title>
       <link>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</link>
@@ -18,11 +14,8 @@
       
       <guid>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</guid>
       <description>&lt;p&gt;本人闲来无事时喜欢将自己的 OnePlus 3T 手机刷成其他系统，然而在刷一加海外版的系统 Oxygen OS 后，新的版本的开机向导必须输入 Google 账号才能进入系统。&lt;/p&gt;
-
 &lt;p&gt;由于众所周知的原因，刚安装完系统之后的开机向导中我们无法连接到 Google 进行身份验证，所以也就无法跳过开机向导，其他的有些 ROM 如 Pixel Experience 也有这种问题 (目前最新版本已经可以跳过)。&lt;/p&gt;
-
 &lt;p&gt;我也曾经到一加论坛寻找解决方案，部分网友说恢复 bootloader 锁再刷机即可在紧急呼救界面输入 &lt;code&gt;*#812#&lt;/code&gt; 来跳过开机向导，但是个人觉得有点麻烦。&lt;/p&gt;
-
 &lt;p&gt;既然无法跳过开机向导，那我们就只能想办法让手机连接到 Google 来通过验证，从而进入系统，下面为大家分享其中一种比较易于实现的方案。&lt;/p&gt;</description>
     </item>
     

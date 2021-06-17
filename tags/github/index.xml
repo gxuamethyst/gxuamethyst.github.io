@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on Gxuamethyst&#39;s blog</title>
+    <title>GitHub on Hello World</title>
     <link>https://gxuamethyst.github.io/tags/github/</link>
-    <description>Recent content in GitHub on Gxuamethyst&#39;s blog</description>
+    <description>Recent content in GitHub on Hello World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Aug 2018 14:06:59 +0800</lastBuildDate>
-    
-	<atom:link href="https://gxuamethyst.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 19 Aug 2018 14:06:59 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何为 GitHub 的项目添加开源许可证（license）</title>
       <link>https://gxuamethyst.github.io/post/add-license/</link>
@@ -18,15 +14,15 @@
       
       <guid>https://gxuamethyst.github.io/post/add-license/</guid>
       <description>&lt;h3 id=&#34;关于开源许可证&#34;&gt;关于开源许可证&lt;/h3&gt;
-
 &lt;p&gt;关于开源许可证的说明/介绍和使用等相关信息，可以参考以下链接中的两篇博文，或者自行 Google。&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html&#34;&gt;如何选择开源许可证？&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/testcs_dn/article/details/38496107&#34;&gt;一张图看懂开源许可协议，开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html&#34;&gt;如何选择开源许可证？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/testcs_dn/article/details/38496107&#34;&gt;一张图看懂开源许可协议，开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;对于已经添加了许可证的 GitHub 项目，该项目的许可信息将会显示在该项目的主页面中。&lt;/p&gt;</description>
     </item>
     

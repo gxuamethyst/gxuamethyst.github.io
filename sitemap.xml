@@ -11,13 +11,15 @@
   <url>
     <loc>https://gxuamethyst.github.io/</loc>
     <lastmod>2018-10-12T22:24:49+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://gxuamethyst.github.io/post/</loc>
     <lastmod>2018-10-12T22:24:49+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -30,19 +32,22 @@
   <url>
     <loc>https://gxuamethyst.github.io/tags/rom/</loc>
     <lastmod>2018-08-26T20:01:54+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://gxuamethyst.github.io/tags/shadowsocks/</loc>
     <lastmod>2018-08-26T20:01:54+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://gxuamethyst.github.io/tags/</loc>
     <lastmod>2018-08-26T20:01:54+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -55,7 +60,8 @@
   <url>
     <loc>https://gxuamethyst.github.io/tags/github/</loc>
     <lastmod>2018-08-19T14:06:59+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -75,7 +81,8 @@
   <url>
     <loc>https://gxuamethyst.github.io/tags/markdown/</loc>
     <lastmod>2018-08-15T21:06:33+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -88,13 +95,15 @@
   <url>
     <loc>https://gxuamethyst.github.io/tags/caddy/</loc>
     <lastmod>2018-08-13T22:15:12+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://gxuamethyst.github.io/tags/hugo/</loc>
     <lastmod>2018-08-13T22:15:12+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -113,7 +122,8 @@
   
   <url>
     <loc>https://gxuamethyst.github.io/categories/</loc>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Caddy on Gxuamethyst&#39;s blog</title>
+    <title>Caddy on Hello World</title>
     <link>https://gxuamethyst.github.io/tags/caddy/</link>
-    <description>Recent content in Caddy on Gxuamethyst&#39;s blog</description>
+    <description>Recent content in Caddy on Hello World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Aug 2018 22:15:12 +0800</lastBuildDate>
-    
-	<atom:link href="https://gxuamethyst.github.io/tags/caddy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Aug 2018 22:15:12 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/tags/caddy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 自动部署</title>
       <link>https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://gxuamethyst.github.io/post/automatic-deployment-of-hugo/</guid>
       <description>&lt;p&gt;若是我们将 Hugo 部署/托管到自己的云服务器中的话，每次更新一篇文章或者对自己的博客修改一点点内容之后，我们需要提交代码到 Github，然后登录云服务器，在服务器中从 Github 同步代码，之后手动执行 &lt;code&gt;hugo --baseURL URL&lt;/code&gt; 命令来生成静态页面。&lt;/p&gt;
-
 &lt;p&gt;这样的一系列操作显得比较复杂、繁琐，而且逼格也不够高，为了简化这些操作，可以参照下面的操作来实现 Hugo 的自动部署。&lt;/p&gt;</description>
     </item>
     
