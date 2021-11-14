@@ -14,7 +14,7 @@
       
       <guid>https://gxuamethyst.github.io/post/how-to-write-markdown/</guid>
       <description>&lt;h1 id=&#34;markdown-介绍&#34;&gt;Markdown 介绍&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&amp;quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 &lt;code&gt;XHTML&lt;/code&gt;(或者 &lt;code&gt;HTML&lt;/code&gt;)文档&amp;quot;.&lt;/p&gt;</description>
     </item>
     
   </channel>

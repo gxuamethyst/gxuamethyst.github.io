@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Gxuamethyst" /><meta name="description" content="Markdown 介绍 Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。
+<meta name="author" content="Gxuamethyst" /><meta name="description" content="Markdown 介绍 Markdown 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&amp;quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 XHTML(或者 HTML)文档&amp;quot;.
 " />
 
 
@@ -42,7 +42,7 @@
 
 <meta property="og:title" content="Markdown 语法练习" />
 <meta property="og:description" content="Markdown 介绍
-Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。" />
+Markdown 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 XHTML(或者 HTML)文档&quot;." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gxuamethyst.github.io/post/how-to-write-markdown/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2018-08-15T21:06:33&#43;08:00" />
@@ -50,13 +50,13 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 
 <meta itemprop="name" content="Markdown 语法练习">
 <meta itemprop="description" content="Markdown 介绍
-Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。"><meta itemprop="datePublished" content="2018-08-15T21:06:33&#43;08:00" />
+Markdown 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 XHTML(或者 HTML)文档&quot;."><meta itemprop="datePublished" content="2018-08-15T21:06:33&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-15T21:06:33&#43;08:00" />
-<meta itemprop="wordCount" content="1133">
+<meta itemprop="wordCount" content="1158">
 <meta itemprop="keywords" content="Markdown," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Markdown 语法练习"/>
 <meta name="twitter:description" content="Markdown 介绍
-Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。"/>
+Markdown 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 XHTML(或者 HTML)文档&quot;."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -144,10 +144,17 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
         <li><a href="#引用">引用</a></li>
         <li><a href="#链接">链接</a></li>
         <li><a href="#水平分区线">水平分区线</a></li>
-        <li><a href="#列表">列表</a></li>
+        <li><a href="#列表">列表</a>
+          <ul>
+            <li><a href="#无序列表">无序列表</a></li>
+            <li><a href="#有序列表">有序列表</a></li>
+            <li><a href="#复选框条目task-lists">复选框条目(Task Lists)</a></li>
+          </ul>
+        </li>
         <li><a href="#代码高亮">代码高亮</a></li>
         <li><a href="#转义">转义</a></li>
         <li><a href="#表格">表格</a></li>
+        <li><a href="#emoji">Emoji</a></li>
       </ul>
     </li>
     <li><a href="#编辑工具">编辑工具</a></li>
@@ -158,11 +165,19 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 </div>
     <div class="post-content">
       <h1 id="markdown-介绍">Markdown 介绍</h1>
-<p><a href="https://zh.wikipedia.org/wiki/Markdown">Markdown</a> 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。</p>
+<p><a href="https://zh.wikipedia.org/wiki/Markdown">Markdown</a> 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 <code>XHTML</code>(或者 <code>HTML</code>)文档&quot;.</p>
 <h1 id="markdown-语法">Markdown 语法</h1>
 <h2 id="插入图片">插入图片</h2>
-<p>语法：<code>![Alt Text](url)</code></p>
-<p>示例：</p>
+<p>语法:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">Alt Text</span>](<span class="na">url</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -171,12 +186,12 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 <pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">Foo</span>](<span class="na">https://en.wikipedia.org/static/images/project-logos/enwiki.png</span>)
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <p><img src="https://en.wikipedia.org/static/images/project-logos/enwiki.png" alt="Foo"></p>
 <h2 id="换行">换行</h2>
-<p>在 Markdown 文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强制换行，可以在行尾插入至少两个空格。</p>
+<p>在 Markdown 文本中输入的换行会从最终生成的结果中删除, 浏览器会根据可用空间自动换行. 如果想强制换行, 可以在行尾插入至少两个空格.</p>
 <h2 id="格式化文本">格式化文本</h2>
-<p>示例：</p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -206,10 +221,10 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 
 <span class="gd">~~删除线~~</span>
 
-插入行内代码 ``public class``
+插入行内代码 <span class="sb">`public class`</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <p><em>斜体字</em></p>
 <p><em>这也是斜体字</em></p>
 <p><strong>强调</strong></p>
@@ -218,8 +233,8 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 <p><del>删除线</del></p>
 <p>插入行内代码 <code>public class</code></p>
 <h2 id="标题">标题</h2>
-<p>可以在标题内容前输入特定数量的井号('#')来实现对应级别的HTML样式的标题(HTML提供六级标题)。使用 Typora 导出成 PDF 文件时将会根据标题生成文章目录。</p>
-<p>示例：</p>
+<p>可以在标题内容前输入特定数量的井号('#')来实现对应级别的HTML样式的标题(HTML提供六级标题). 使用 Typora 导出成 PDF 文件时将会根据标题生成文章目录.</p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -235,36 +250,42 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 </span></code></pre></td></tr></table>
 </div>
 </div><h2 id="断行">断行</h2>
-<p>若是需要在 Markdown 文档中的某个地方强制断行(换行)，可以添加换行标签 <code>&lt;br/&gt;</code> 。</p>
+<p>若是需要在 Markdown 文档中的某个地方强制断行(换行), 可以添加换行标签 <code>&lt;br/&gt;</code>.</p>
 <h2 id="引用">引用</h2>
-<p>引用只需要在被引用的内容段落开头加上右尖括号('&gt;')即可。你可以选择只在开头加一个。也可以在每行前面都加一个，效果是一样的。</p>
-<p>示例：</p>
+<p>引用只需要在被引用的内容段落开头加上右尖括号 <code>&gt;</code> 即可. 你可以选择只在开头加一个. 也可以在每行前面都加一个, 效果是一样的.</p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
-</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">&gt; </span><span class="ge">这一整段的内容都会作为一个HTML的引用元素。
-</span><span class="ge"></span>引用元素是会自动优化排版的（reflowable，可回流）。
-你可以任意地将引用的内容包含进来，然后所有这些都会
-被解析成为单独一个引用元素。(引用的段落最后空一行结束引用)
-
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">&gt; </span><span class="ge">这一整段的内容都会作为一个HTML的引用元素.
+</span><span class="ge"></span>引用元素是会自动优化排版的(reflowable, 可回流).
+你可以任意地将引用的内容包含进来, 然后所有这些都会
+被解析成为单独一个引用元素. (引用的段落最后空一行结束引用)
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <blockquote>
-<p>这一整段的内容都会作为一个HTML的引用元素。
-引用元素是会自动优化排版的（reflowable，可回流）。
-你可以任意地将引用的内容包含进来，然后所有这些都会
-被解析成为单独一个引用元素。(引用的段落最后空一行结束引用)</p>
+<p>这一整段的内容都会作为一个HTML的引用元素.
+引用元素是会自动优化排版的(reflowable, 可回流).
+你可以任意地将引用的内容包含进来, 然后所有这些都会
+被解析成为单独一个引用元素. (引用的段落最后空一行结束引用)</p>
 </blockquote>
 <h2 id="链接">链接</h2>
-<p>语法：<code>[链接文字](链接地址)</code></p>
-<p>示例：</p>
+<p>语法:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">链接文字</span>](<span class="na">链接地址</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -273,11 +294,11 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 <pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">Markdown</span>](<span class="na">https://zh.wikipedia.com/wiki/Markdown</span>)
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <p><a href="https://zh.wikipedia.com/wiki/Markdown">Markdown</a></p>
 <h2 id="水平分区线">水平分区线</h2>
-<p>要生成水平分区线，可以在单独一行里输入3个或以上的短横线、星号或者下划线实现。短横线和星号之间可以输入任意空格。以下每一行都产生一条水平分区线。</p>
-<p>示例：</p>
+<p>要生成水平分区线, 可以在单独一行里输入3个或以上的短横线、星号或者下划线实现. 短横线和星号之间可以输入任意空格. 以下每一行都产生一条水平分区线.</p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -294,14 +315,14 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 ___
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <hr>
 <hr>
 <hr>
 <hr>
 <hr>
 <h2 id="列表">列表</h2>
-<p>无序列表：</p>
+<h3 id="无序列表">无序列表</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -312,48 +333,62 @@ ___
 <td class="lntd">
 <pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">*</span> Item 1
 <span class="k">*</span> Item 2
- <span class="k">*</span> Item 2a
- <span class="k">*</span> Item 2b
+  <span class="k">*</span> Item 2a
+  <span class="k">*</span> Item 2b
 </code></pre></td></tr></table>
 </div>
-</div><p>结果：</p>
+</div><p>结果:</p>
 <ul>
 <li>Item 1</li>
-<li>Item 2</li>
+<li>Item 2
+<ul>
 <li>Item 2a</li>
 <li>Item 2b</li>
 </ul>
-<p>有序列表:</p>
+</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">1.</span> Item 1
 <span class="k">2.</span> Item 2
 <span class="k">3.</span> Item 3
- <span class="k">*</span> Item 3a
- <span class="k">*</span> Item 3b
 </code></pre></td></tr></table>
 </div>
-</div><p>结果：</p>
+</div><p>结果:</p>
 <ol>
 <li>Item 1</li>
 <li>Item 2</li>
 <li>Item 3</li>
 </ol>
+<h3 id="复选框条目task-lists">复选框条目(Task Lists)</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">- [ ]</span> Item 1
+<span class="k">- [x]</span> Item 2
+<span class="k">- [ ]</span> Item 3
+</code></pre></td></tr></table>
+</div>
+</div><p>结果:</p>
 <ul>
-<li>Item 3a</li>
-<li>Item 3b</li>
+<li><input disabled="" type="checkbox"> Item 1</li>
+<li><input checked="" disabled="" type="checkbox"> Item 2</li>
+<li><input disabled="" type="checkbox"> Item 3</li>
 </ul>
 <h2 id="代码高亮">代码高亮</h2>
-<p>示例：</p>
+<p>示例:</p>
 <p><img src="/images/markdown_code_demo.png" alt="Code Highlighting Sample"></p>
-<p>示例结果：</p>
+<p>示例结果:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -371,8 +406,8 @@ ___
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="转义">转义</h2>
-<p>Markdown 中使用反斜杠 \ 进行转义，支持转义的符号包括<code>\ ` * _ { } [ ] ( ) # + - . !</code>，若要插入空格，可以使用 <code>&amp;nbsp;</code></p>
-<p>示例：</p>
+<p>Markdown 中使用反斜杠 \ 进行转义, 支持转义的符号包括 <code>\ ` * _ { } [ ] ( ) # + - . !</code>, 若要插入空格, 可以使用 <code>&amp;nbsp;</code></p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -381,10 +416,10 @@ ___
 <pre class="chroma"><code class="language-markdown" data-lang="markdown">\*literal asterisks\*
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果(不会被解析成 Markdown):</p>
 <p>*literal asterisks*</p>
 <h2 id="表格">表格</h2>
-<p>示例：</p>
+<p>示例:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -399,7 +434,7 @@ Content Cell  | Content Cell  | Content Cell
 Content Cell  | Content Cell  | Content Cell
 </code></pre></td></tr></table>
 </div>
-</div><p>示例结果：</p>
+</div><p>示例结果:</p>
 <table>
 <thead>
 <tr>
@@ -421,6 +456,14 @@ Content Cell  | Content Cell  | Content Cell
 </tr>
 </tbody>
 </table>
+<h2 id="emoji">Emoji</h2>
+<p>:grinning:
+:smile:
+:joy:</p>
+<p>示例结果:</p>
+<p>😀
+😄
+😂</p>
 <h1 id="编辑工具">编辑工具</h1>
 <ul>
 <li><a href="https://www.typora.io/">Typora</a></li>
@@ -430,15 +473,11 @@ Content Cell  | Content Cell  | Content Cell
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
 </ul>
 <p>可根据需要安装 Markdown 预览插件</p>
-<ul>
-<li><a href="https://github.com/ivarptr/yu-writer.site/releases">Yu writer</a></li>
-</ul>
-<p>国产 Markdown 编辑器</p>
 <h1 id="参考">参考</h1>
 <ol>
 <li><a href="https://zh.wikipedia.org/wiki/Markdown">https://zh.wikipedia.org/wiki/Markdown</a></li>
 <li><a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></li>
-<li><a href="http://wowubuntu.com/markdown/">http://wowubuntu.com/markdown/</a></li>
+<li><a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md</a></li>
 </ol>
     </div>
 
@@ -462,9 +501,9 @@ Content Cell  | Content Cell  | Content Cell
           <a href="/tags/markdown/">Markdown</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/shadowsocks-installation/">
+        <a class="prev" href="/post/add-license/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Shadowsocks 服务器搭建</span>
+            <span class="prev-text nav-default">如何为 GitHub 的项目添加开源许可证（license）</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         <a class="next" href="/post/automatic-deployment-of-hugo/">
@@ -484,7 +523,7 @@ Content Cell  | Content Cell  | Content Cell
         id: '2018-08-15 21:06:33 \u002b0800 CST',
         title: 'Markdown 语法练习',
         link: decodeURI(location.href),
-        desc: '\u003ch1 id=\u0022markdown-介绍\u0022\u003eMarkdown 介绍\u003c\/h1\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/zh.wikipedia.org\/wiki\/Markdown\u0022\u003eMarkdown\u003c\/a\u003e 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。\u003c\/p\u003e',
+        desc: '\u003ch1 id=\u0022markdown-介绍\u0022\u003eMarkdown 介绍\u003c\/h1\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/zh.wikipedia.org\/wiki\/Markdown\u0022\u003eMarkdown\u003c\/a\u003e 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们\u0026quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 \u003ccode\u003eXHTML\u003c\/code\u003e(或者 \u003ccode\u003eHTML\u003c\/code\u003e)文档\u0026quot;.\u003c\/p\u003e',
         owner: 'gxuamethyst',
         repo: 'blog-comments',
         oauth: {

@@ -6,16 +6,7 @@
     <description>Recent content in Posts on Hello World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Oct 2018 22:24:49 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Flag</title>
-      <link>https://gxuamethyst.github.io/post/flag/</link>
-      <pubDate>Fri, 12 Oct 2018 22:24:49 +0800</pubDate>
-      
-      <guid>https://gxuamethyst.github.io/post/flag/</guid>
-      <description>2018.10.12</description>
-    </item>
-    
+    <lastBuildDate>Tue, 18 Sep 2018 17:37:22 +0800</lastBuildDate><atom:link href="https://gxuamethyst.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>局域网内使用 Android 手机控制电脑音乐播放</title>
       <link>https://gxuamethyst.github.io/post/use-cellphone-to-controll-pc-music-player/</link>
@@ -23,18 +14,6 @@
       
       <guid>https://gxuamethyst.github.io/post/use-cellphone-to-controll-pc-music-player/</guid>
       <description>&lt;p&gt;下班后累了就只想着开电脑躺床上听歌，这时候问题就来了，有时候想要切歌又不想动不想回到电脑桌前切歌怎么办，为此产生了如下的使用 Android 手机切换电脑音乐播放的解决方案，使用手机放歌的小伙伴们请忽略。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>刷机之后在开机向导中如何连接 Google 进行验证</title>
-      <link>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</link>
-      <pubDate>Sun, 26 Aug 2018 20:01:54 +0800</pubDate>
-      
-      <guid>https://gxuamethyst.github.io/post/how-to-connect-to-google-in-setup-wizard/</guid>
-      <description>&lt;p&gt;本人闲来无事时喜欢将自己的 OnePlus 3T 手机刷成其他系统，然而在刷一加海外版的系统 Oxygen OS 后，新的版本的开机向导必须输入 Google 账号才能进入系统。&lt;/p&gt;
-&lt;p&gt;由于众所周知的原因，刚安装完系统之后的开机向导中我们无法连接到 Google 进行身份验证，所以也就无法跳过开机向导，其他的有些 ROM 如 Pixel Experience 也有这种问题 (目前最新版本已经可以跳过)。&lt;/p&gt;
-&lt;p&gt;我也曾经到一加论坛寻找解决方案，部分网友说恢复 bootloader 锁再刷机即可在紧急呼救界面输入 &lt;code&gt;*#812#&lt;/code&gt; 来跳过开机向导，但是个人觉得有点麻烦。&lt;/p&gt;
-&lt;p&gt;既然无法跳过开机向导，那我们就只能想办法让手机连接到 Google 来通过验证，从而进入系统，下面为大家分享其中一种比较易于实现的方案。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,24 +36,13 @@
     </item>
     
     <item>
-      <title>Shadowsocks 服务器搭建</title>
-      <link>https://gxuamethyst.github.io/post/shadowsocks-installation/</link>
-      <pubDate>Fri, 17 Aug 2018 14:13:56 +0800</pubDate>
-      
-      <guid>https://gxuamethyst.github.io/post/shadowsocks-installation/</guid>
-      <description>&lt;h2 id=&#34;购买一个国外-vps服务器&#34;&gt;购买一个国外 VPS/服务器&lt;/h2&gt;
-&lt;p&gt;想要自己搭建一个用于代理的 Shadowsocks 服务，首先需要购买一个国外的 VPS (Virtual Private Server 虚拟专用服务器)，国外的主机提供商有很多，比较著名的有 &lt;a href=&#34;https://www.digitalocean.com/&#34;&gt;DigitalOcean&lt;/a&gt;，&lt;a href=&#34;https://www.linode.com/&#34;&gt;Linode&lt;/a&gt;，&lt;a href=&#34;https://www.vultr.com/&#34;&gt;Vultr&lt;/a&gt; 等，服务器相对较为稳定，速度快，但是价格也相对较高。&lt;/p&gt;
-&lt;p&gt;购买步骤大致如下&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Markdown 语法练习</title>
       <link>https://gxuamethyst.github.io/post/how-to-write-markdown/</link>
       <pubDate>Wed, 15 Aug 2018 21:06:33 +0800</pubDate>
       
       <guid>https://gxuamethyst.github.io/post/how-to-write-markdown/</guid>
       <description>&lt;h1 id=&#34;markdown-介绍&#34;&gt;Markdown 介绍&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; 是一种轻量级标记语言, 创始人为约翰·格鲁伯(John Gruber). 它允许人们&amp;quot;使用易读易写的纯文本格式编写文档, 然后转换成有效的 &lt;code&gt;XHTML&lt;/code&gt;(或者 &lt;code&gt;HTML&lt;/code&gt;)文档&amp;quot;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,7 +62,8 @@
       
       <guid>https://gxuamethyst.github.io/post/quick-start-for-hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-介绍&#34;&gt;Hugo 介绍&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 是一个使用 &lt;a href=&#34;https://golang.org&#34;&gt;Golang&lt;/a&gt; 编写的静态站点生成器，其他类似的工具还有 &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;、&lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 是一个使用 &lt;a href=&#34;https://golang.org&#34;&gt;Golang&lt;/a&gt; 编写的静态站点生成器, 其他类似的工具还有 &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;, &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; 等等.&lt;/p&gt;
+&lt;p&gt;Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等.&lt;/p&gt;</description>
     </item>
     
   </channel>

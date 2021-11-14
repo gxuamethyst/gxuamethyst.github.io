@@ -16,7 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Gxuamethyst" /><meta name="description" content="Hugo 介绍 Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工具还有 Hexo、Jekyll 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。
+<meta name="author" content="Gxuamethyst" /><meta name="description" content="Hugo 介绍 Hugo 是一个使用 Golang 编写的静态站点生成器, 其他类似的工具还有 Hexo, Jekyll 等等.
+Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等.
 " />
 
 
@@ -42,7 +43,8 @@
 
 <meta property="og:title" content="Hugo 快速入门" />
 <meta property="og:description" content="Hugo 介绍
-Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工具还有 Hexo、Jekyll 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。" />
+Hugo 是一个使用 Golang 编写的静态站点生成器, 其他类似的工具还有 Hexo, Jekyll 等等.
+Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gxuamethyst.github.io/post/quick-start-for-hugo/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2018-08-13T22:05:40&#43;08:00" />
@@ -50,13 +52,15 @@ Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工�
 
 <meta itemprop="name" content="Hugo 快速入门">
 <meta itemprop="description" content="Hugo 介绍
-Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工具还有 Hexo、Jekyll 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。"><meta itemprop="datePublished" content="2018-08-13T22:05:40&#43;08:00" />
+Hugo 是一个使用 Golang 编写的静态站点生成器, 其他类似的工具还有 Hexo, Jekyll 等等.
+Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等."><meta itemprop="datePublished" content="2018-08-13T22:05:40&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-13T22:05:40&#43;08:00" />
-<meta itemprop="wordCount" content="1006">
+<meta itemprop="wordCount" content="998">
 <meta itemprop="keywords" content="Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo 快速入门"/>
 <meta name="twitter:description" content="Hugo 介绍
-Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工具还有 Hexo、Jekyll 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。"/>
+Hugo 是一个使用 Golang 编写的静态站点生成器, 其他类似的工具还有 Hexo, Jekyll 等等.
+Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -160,58 +164,78 @@ Hugo 是一个使用 Golang 编写的静态站点生成器，其他类似的工�
 </div>
     <div class="post-content">
       <h2 id="hugo-介绍">Hugo 介绍</h2>
-<p><a href="https://gohugo.io">Hugo</a> 是一个使用 <a href="https://golang.org">Golang</a> 编写的静态站点生成器，其他类似的工具还有 <a href="https://hexo.io">Hexo</a>、<a href="https://jekyllrb.com">Jekyll</a> 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。</p>
+<p><a href="https://gohugo.io">Hugo</a> 是一个使用 <a href="https://golang.org">Golang</a> 编写的静态站点生成器, 其他类似的工具还有 <a href="https://hexo.io">Hexo</a>, <a href="https://jekyllrb.com">Jekyll</a> 等等.</p>
+<p>Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等.</p>
 <h2 id="下载安装-hugo">下载安装 Hugo</h2>
-<p>要安装 Hugo 可以参考 Hugo 官方的安装文档 <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a>，也可参照下述步骤进行安装。</p>
+<p>要安装 Hugo 可以参考 Hugo 官方的安装文档 <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a>, 也可参照下述步骤进行安装.</p>
 <h3 id="获取最新版本的-hugo">获取最新版本的 Hugo</h3>
-<p>为获取最新版本的 Hugo，我们可以访问 <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a> 然后根据自己的操作系统版本进行下载，截止至本文编写时 Hugo 最新版本为 0.46。</p>
-<p><img src="/images/hugo-releases.png" alt="hugo-releases"></p>
+<p>为获取最新版本的 Hugo, 我们可以访问 <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a> 然后根据自己的操作系统版本进行下载, 截止至本文编写时 Hugo 最新版本为 <code>0.83.1</code>.</p>
+<blockquote>
+<p>因某些主题的特殊功能需要用到 extended 版本支持, 如有需要请使用 hugo extended 版本.</p>
+</blockquote>
 <h3 id="for-windows">For Windows</h3>
-<p>下载 <code>hugo_0.46_Windows-64bit.zip</code> 并解压到特定的软件目录如 <code>D:\Programs\Hugo</code>，其中的 <code>hugo.exe</code> 即为 Hugo 的可执行文件，为了方便在命令行控制台使用，我们需要将 Hugo 配置到环境变量。</p>
-<p>依次打开资源管理器（我的电脑）&ndash; 右键 “计算机” &ndash; 选择“属性” &ndash; 高级系统设置 &ndash; 环境变量 &ndash; 选择 Path 变量 &ndash; 编辑 &ndash; 新建 &ndash; 填入 <code>D:\Programs\Hugo</code> &ndash; 保存并退出，步骤如下图</p>
-<p><img src="/images/config-path.png" alt="config-path"></p>
-<p>配置完成之后可以打开命令行控制台输入 <code>hugo version</code> 查看是否配置成功，若命令输出如下提示则表示成功配置了环境变量。</p>
+<p>下载 <code>hugo_0.83.1_Windows-64bit.zip</code> 并解压到特定的软件目录如 <code>D:\Programs\Hugo</code>, 其中的 <code>hugo.exe</code> 即为 Hugo 的可执行文件, 为了方便在命令行控制台使用, 我们需要将 Hugo 配置到环境变量.</p>
+<p>依次打开资源管理器（我的电脑）&ndash; 右键 “计算机” &ndash; 选择“属性” &ndash; 高级系统设置 &ndash; 环境变量 &ndash; 选择 Path 变量 &ndash; 编辑 &ndash; 新建 &ndash; 填入 <code>D:\Programs\Hugo</code> &ndash; 保存并退出.</p>
+<p>配置完成之后可以打开命令行控制台输入 <code>hugo version</code> 查看是否配置成功, 若命令输出类似如下则表示成功配置了环境变量.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Hugo Static Site Generator v0.46 windows/amd64 BuildDate: 2018-08-01T09:01:27Z
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo v0.83.1-5AFE0A57 windows/amd64 <span class="nv">BuildDate</span><span class="o">=</span>2021-05-02T14:38:05Z <span class="nv">VendorInfo</span><span class="o">=</span>gohugoio
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="for-mac">For Mac</h3>
-<p>参考 <a href="https://gohugo.io/getting-started/installing/#macos">https://gohugo.io/getting-started/installing/#macos</a></p>
-<h3 id="for-linux">For Linux</h3>
-<p>以 Ubuntu 16.04 为例，执行如下命令下载安装。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://github.com/gohugoio/hugo/releases/download/v0.46/hugo_0.46_Linux-64bit.tar.gz
-tar -zxvf hugo_0.46_Linux-64bit.tar.gz
-sudo mv hugo /usr/local/bin
+<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_macOS-64bit.tar.gz
+tar -xf hugo_0.83.1_macOS-64bit.tar.gz
+sudo mv hugo /usr/local/bin/
+hugo version
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="for-linux">For Linux</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.tar.gz
+tar -xf hugo_0.83.1_Linux-64bit.tar.gz
+sudo mv hugo /usr/local/bin/
+hugo version
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="hugo-简单使用">Hugo 简单使用</h2>
 <h3 id="创建一个新站点">创建一个新站点</h3>
-<p>执行如下命令创建一个新站点。</p>
+<p>执行如下命令创建一个新站点.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site blog
 <span class="nb">cd</span> blog
 git init
+git add .
+git commit -m <span class="s2">&#34;init with &#39;hugo new site [folder]&#39; command.&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="安装主题">安装主题</h3>
-<p>Hugo 默认是不带主题的，用户在新建站点的时候需要手动安装一个主题，主题可以在这里 <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> 找到，每个主题的安装使用方式会有些不太一样，具体根据主题作者提供的教程进行安装使用，下面的命令以 <a href="https://github.com/olOwOlo/hugo-theme-even">even</a> 主题为例为 Hugo 安装主题。</p>
+<p>Hugo 默认是不带主题的, 用户在新建站点的时候需要手动安装一个主题才能使用, 主题可以在这里 <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> 找到, 每个主题的安装使用方式会有些不太一样, 具体根据主题作者提供的教程进行安装使用, 下面的命令以 <a href="https://github.com/olOwOlo/hugo-theme-even">even</a> 主题为例为 Hugo 安装主题.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -226,7 +250,7 @@ cp themes/even/exampleSite/config.toml .
 <ol>
 <li>运行 Hugo</li>
 </ol>
-<p>执行如下命令运行 Hugo，Hugo 默认运行在 1313 端口，可到浏览器访问 <a href="http://localhost:1313/">http://localhost:1313/</a></p>
+<p>执行如下命令运行 Hugo, Hugo 默认运行在 1313 端口, 可到浏览器访问 <a href="http://localhost:1313/">http://localhost:1313/</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -246,12 +270,12 @@ cp themes/even/exampleSite/config.toml .
 <pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post/hello-world.md
 </code></pre></td></tr></table>
 </div>
-</div><p>注意，部分主题使用的是 <code>posts</code> (即应该执行 <code>hugo new posts/hello-world.md</code>)，请根据自己所采用的主题进行操作。</p>
-<p>执行如上的命令之后将会在站点根目录下的 <code>content/post</code> 目录下发现刚刚新建的文件 <code>hello-world.md</code>，使用自己喜欢的 Markdown 编辑器添加内容即可。</p>
+</div><p>注意, 部分主题使用的是 <code>posts</code> (即应该执行 <code>hugo new posts/hello-world.md</code>), 请根据自己所采用的主题进行操作.</p>
+<p>执行如上的命令之后将会在站点根目录下的 <code>content/post</code> 目录下发现刚刚新建的文件 <code>hello-world.md</code>, 使用自己喜欢的 <code>Markdown</code> 编辑器添加内容即可.</p>
 <ol start="3">
 <li>生成静态页面</li>
 </ol>
-<p>若想需要生成静态页面用于托管到服务器，可在站点根目录下执行如下命令，其中的 <code>target url</code> 即自己实际使用的域名，生成的静态页面文件将位于 <code>public</code> 目录下</p>
+<p>若想需要生成静态页面用于托管到服务器, 可在站点根目录下执行如下命令, 其中的 <code>target url</code> 即自己实际使用的域名, 生成的静态页面文件将位于 <code>public</code> 目录下</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -287,7 +311,7 @@ categories: [&#34;Demo&#34;]
 </div><ol start="4">
 <li>Hugo 图片存储目录</li>
 </ol>
-<p>可将文章中引用到的图片文件放到 <code>static</code> 的 <code>images</code> 目录下，这样在文章中引用图片的书写格式为</p>
+<p>可将文章中引用到的图片文件放到 <code>static</code> 的 <code>images</code> 目录下, 这样在文章中引用图片的书写格式为</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -299,12 +323,20 @@ categories: [&#34;Demo&#34;]
 </div><ol start="5">
 <li>在一篇文章中链接到另外一篇文章</li>
 </ol>
-<p><img src="/images/link-to-another-doc.png" alt="link-to-another-doc"></p>
-<h2 id="参考">参考</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">another-doc-title</span>](<span class="na">{{\&lt; ref &#34;another-doc&#34; \&gt;}}</span>)  # remove &#39;\&#39;
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="参考">参考</h2>
 <p><a href="https://gohugo.io/">Hugo</a></p>
 <p><a href="https://github.com/gohugoio/hugo">Hugo Github</a></p>
 <p><a href="https://gohugo.io/documentation/">Hugo Doc</a></p>
-<p><a href="https://github.com/olOwOlo/hugo-theme-even">even</a></p>
+<p><a href="https://github.com/olOwOlo/hugo-theme-even">Even</a></p>
+<p><a href="https://realfavicongenerator.net">Favicon generator</a></p>
     </div>
 
     <div class="post-copyright">
@@ -345,7 +377,7 @@ categories: [&#34;Demo&#34;]
         id: '2018-08-13 22:05:40 \u002b0800 CST',
         title: 'Hugo 快速入门',
         link: decodeURI(location.href),
-        desc: '\u003ch2 id=\u0022hugo-介绍\u0022\u003eHugo 介绍\u003c\/h2\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/gohugo.io\u0022\u003eHugo\u003c\/a\u003e 是一个使用 \u003ca href=\u0022https:\/\/golang.org\u0022\u003eGolang\u003c\/a\u003e 编写的静态站点生成器，其他类似的工具还有 \u003ca href=\u0022https:\/\/hexo.io\u0022\u003eHexo\u003c\/a\u003e、\u003ca href=\u0022https:\/\/jekyllrb.com\u0022\u003eJekyll\u003c\/a\u003e 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。\u003c\/p\u003e',
+        desc: '\u003ch2 id=\u0022hugo-介绍\u0022\u003eHugo 介绍\u003c\/h2\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/gohugo.io\u0022\u003eHugo\u003c\/a\u003e 是一个使用 \u003ca href=\u0022https:\/\/golang.org\u0022\u003eGolang\u003c\/a\u003e 编写的静态站点生成器, 其他类似的工具还有 \u003ca href=\u0022https:\/\/hexo.io\u0022\u003eHexo\u003c\/a\u003e, \u003ca href=\u0022https:\/\/jekyllrb.com\u0022\u003eJekyll\u003c\/a\u003e 等等.\u003c\/p\u003e\n\u003cp\u003eHugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等.\u003c\/p\u003e',
         owner: 'gxuamethyst',
         repo: 'blog-comments',
         oauth: {

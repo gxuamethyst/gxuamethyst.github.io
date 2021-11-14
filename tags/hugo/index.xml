@@ -24,7 +24,8 @@
       
       <guid>https://gxuamethyst.github.io/post/quick-start-for-hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-介绍&#34;&gt;Hugo 介绍&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 是一个使用 &lt;a href=&#34;https://golang.org&#34;&gt;Golang&lt;/a&gt; 编写的静态站点生成器，其他类似的工具还有 &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;、&lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; 等等，Hugo 具有简单、易用、高效、易扩展、快速部署等特点，目前在 GitHub 上具有 27913 个 star，是目前较为流行的几大静态站点生成器之一，绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 是一个使用 &lt;a href=&#34;https://golang.org&#34;&gt;Golang&lt;/a&gt; 编写的静态站点生成器, 其他类似的工具还有 &lt;a href=&#34;https://hexo.io&#34;&gt;Hexo&lt;/a&gt;, &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; 等等.&lt;/p&gt;
+&lt;p&gt;Hugo 具有简单, 易用, 高效, 易扩展, 快速部署等特点, 目前在 GitHub 上具有 52.3k 个 star, 是目前较为流行的几大静态站点生成器之一, 目前, 绝大多数 Hugo 使用者都将 Hugo 用于搭建个人博客, 当然, Hugo 也可用于搭建技术网站, 组织生成文档等等.&lt;/p&gt;</description>
     </item>
     
   </channel>
